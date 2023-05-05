@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:text="First Activity"
+        android:textSize="40sp"
+        android:layout_marginLeft="90dp"
+        android:textColor="#FB095C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/send_hello_btn"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginHorizontal="30sp"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:text="Send Hello!.."
+        android:paddingVertical="10dp"></Button>
+
+</LinearLayout>

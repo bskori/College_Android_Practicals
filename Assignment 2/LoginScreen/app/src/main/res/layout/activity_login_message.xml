@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginMessage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:paddingVertical="10sp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Welcome..."
+        />
+
+    <TextView
+        android:id="@+id/messsage_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textSize="40sp"
+        android:paddingLeft="10sp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:background="#F10B0B"/>
+
+</LinearLayout>
